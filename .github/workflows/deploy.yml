@@ -30,8 +30,8 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
-          CLEAN: true
-          SINGLE_COMMIT: true
+          CLEAN: false
+          SINGLE_COMMIT: false
           FOLDER: out
           GIT_CONFIG_NAME: joaoulian
           GIT_CONFIG_EMAIL: joaogabrielulian@gmail.com
